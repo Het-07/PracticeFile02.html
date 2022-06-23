@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(img/download.jpg);
+    background-size: cover;
+}
+
+.contact-form{
+    width: 85%;
+    max-width: 600px;
+    background: whitesmoke;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 20px black;
+}
+
+.contact-form h1{
+    background-image: url(img/bg.jpg);
+    background-position: cover;
+    color: white;
+    width: 50;
+    height: 100;
+}
+
+.txtb{
+    border: 1px solid gray;
+    margin: 8px 0 0;
+    padding: 12px 18px;
+}
+
+.txtb input, .txtb textarea{
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.btn{
+    display: block;
+    background: mediumslateblue;
+    padding: 15px 0;
+    color: white;
+    border-radius: 5px;
+    box-sizing: border;
+    box-shadow: 2px black;
+    cursor: pointer;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.txtb{
+    position: relative;
+}
+
+.btn .fas{
+    position: relative;
+    top: 10px;
+}
+
+.txtb .fas{
+    position: relative;
+    top: 15px;
+    left: 20px;
+    color: black;
+}
+

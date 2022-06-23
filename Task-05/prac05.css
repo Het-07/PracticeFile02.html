@@ -1,0 +1,38 @@
+*{
+    background-color: white;
+}
+
+h3{
+    text-align: center;
+}
+
+table th#green{
+    background-color:lightgreen;
+    color:black;
+}
+
+tr:nth-child(0){
+    background-color:lightgreen;
+    color:black;
+}
+
+.blue:nth-child(1) {
+    background:lightskyblue;
+    color: black;
+}
+
+td:nth-child(2){
+    background-color: white;
+    color: black;
+}
+
+td:nth-child(3){
+    background-color: lightpink;
+    color: black;
+}
+
+td:nth-child(4){
+    background-color:lightyellow;
+    color: black;
+}
+
